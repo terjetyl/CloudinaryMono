@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results />
+  <Tests>
+    <TestRecord Name="CloudinaryMono">
+      <Results />
+      <Tests>
+        <TestRecord Name="Test">
+          <Results />
+          <Tests>
+            <TestRecord Name="ApiTest">
+              <Results />
+              <Tests>
+                <TestRecord Name="StreamTest">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T18:13:43</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.ApiTest.StreamTest () [0x00056] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/ApiTest.cs:556 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T18:20:12</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.ApiTest.StreamTest () [0x0004b] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/ApiTest.cs:556 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T18:24:45</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.ApiTest.StreamTest () [0x00056] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/ApiTest.cs:556 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T18:25:07</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.ApiTest.StreamTest () [0x00056] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/ApiTest.cs:556 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T18:25:14</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.ApiTest.StreamTest () [0x00056] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/ApiTest.cs:556 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="CloudinaryTest">
+              <Results />
+              <Tests>
+                <TestRecord Name="TestUploadLocalImage">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T18:41:11</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>ServiceStack.ServiceClient.Web.WebServiceException : Forbidden</Message>
+                      <StackTrace>  at ServiceStack.ServiceClient.Web.ServiceClientBase.ThrowWebServiceException[ErrorResponse] (System.Exception ex, System.String requestUri) [0x00000] in &lt;filename unknown&gt;:0 
+  at ServiceStack.ServiceClient.Web.ServiceClientBase.ThrowResponseTypeException[HttpWebResponse] (System.Object request, System.Exception ex, System.String requestUri) [0x00000] in &lt;filename unknown&gt;:0 
+  at ServiceStack.ServiceClient.Web.ServiceClientBase.HandleResponseException[HttpWebResponse] (System.Exception ex, System.Object request, System.String requestUri, System.Func`1 createWebRequest, System.Func`2 getResponse, System.Net.HttpWebResponse&amp; response) [0x00000] in &lt;filename unknown&gt;:0 
+  at ServiceStack.ServiceClient.Web.ServiceClientBase.Send[HttpWebResponse] (System.String httpMethod, System.String relativeOrAbsoluteUrl, System.Object request) [0x00000] in &lt;filename unknown&gt;:0 
+  at ServiceStack.ServiceClient.Web.ServiceClientBase.Post[HttpWebResponse] (IReturn`1 request) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Api.Call (HttpMethod method, System.String url, System.Collections.Generic.SortedDictionary`2 parameters, CloudinaryMono.Actions.FileDescription file) [0x0002e] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono/Api.cs:323 
+  at CloudinaryMono.Cloudinary.Upload (CloudinaryMono.Actions.ImageUploadParams parameters) [0x00011] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono/Cloudinary.cs:75 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadLocalImage () [0x00019] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:65 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 50298190ac9234a4a30e06766e22d7fbfda96530
+timestamp: 1368463272
+use_filename: false
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T21:50:14</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 759100
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadLocalImage () [0x00026] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:67 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: f2822cf3e5d4f7480f223507ce642d273be35519
+timestamp: 1368474615
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T21:52:08</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 759100
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadLocalImage () [0x00026] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:67 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 7b163f9bccd24f632e5b1ea7226ac90f999d402c
+timestamp: 1368474734
+use_filename: false
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T21:53:30</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>A debugger session is already started</Message>
+                      <StackTrace>  at MonoDevelop.Debugger.DebuggingService.InternalRun (MonoDevelop.Core.Execution.ExecutionCommand cmd, MonoDevelop.Debugger.DebuggerEngine factory, IConsole c) [0x000fc] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebuggingService.cs:557 
+  at MonoDevelop.Debugger.DebugExecutionHandler.Execute (MonoDevelop.Core.Execution.ExecutionCommand command, IConsole console) [0x00000] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebugExecutionHandlerFactory.cs:70 
+  at MonoDevelop.Debugger.InternalDebugExecutionHandler.Execute (MonoDevelop.Core.Execution.ExecutionCommand command, IConsole console) [0x0000c] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebuggingService.cs:987 
+  at MonoDevelop.Core.Execution.ProcessHostController.Start (IList`1 userAssemblyPaths) [0x00171] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/core/MonoDevelop.Core/MonoDevelop.Core.Execution/ProcessHostController.cs:133 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T21:54:17</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>A debugger session is already started</Message>
+                      <StackTrace>  at MonoDevelop.Debugger.DebuggingService.InternalRun (MonoDevelop.Core.Execution.ExecutionCommand cmd, MonoDevelop.Debugger.DebuggerEngine factory, IConsole c) [0x000fc] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebuggingService.cs:557 
+  at MonoDevelop.Debugger.DebugExecutionHandler.Execute (MonoDevelop.Core.Execution.ExecutionCommand command, IConsole console) [0x00000] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebugExecutionHandlerFactory.cs:70 
+  at MonoDevelop.Debugger.InternalDebugExecutionHandler.Execute (MonoDevelop.Core.Execution.ExecutionCommand command, IConsole console) [0x0000c] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebuggingService.cs:987 
+  at MonoDevelop.Core.Execution.ProcessHostController.Start (IList`1 userAssemblyPaths) [0x00171] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/core/MonoDevelop.Core/MonoDevelop.Core.Execution/ProcessHostController.cs:133 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T21:56:13</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>A debugger session is already started</Message>
+                      <StackTrace>  at MonoDevelop.Debugger.DebuggingService.InternalRun (MonoDevelop.Core.Execution.ExecutionCommand cmd, MonoDevelop.Debugger.DebuggerEngine factory, IConsole c) [0x000fc] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebuggingService.cs:557 
+  at MonoDevelop.Debugger.DebugExecutionHandler.Execute (MonoDevelop.Core.Execution.ExecutionCommand command, IConsole console) [0x00000] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebugExecutionHandlerFactory.cs:70 
+  at MonoDevelop.Debugger.InternalDebugExecutionHandler.Execute (MonoDevelop.Core.Execution.ExecutionCommand command, IConsole console) [0x0000c] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebuggingService.cs:987 
+  at MonoDevelop.Core.Execution.ProcessHostController.Start (IList`1 userAssemblyPaths) [0x00171] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/core/MonoDevelop.Core/MonoDevelop.Core.Execution/ProcessHostController.cs:133 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T21:56:51</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>A debugger session is already started</Message>
+                      <StackTrace>  at MonoDevelop.Debugger.DebuggingService.InternalRun (MonoDevelop.Core.Execution.ExecutionCommand cmd, MonoDevelop.Debugger.DebuggerEngine factory, IConsole c) [0x000fc] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebuggingService.cs:557 
+  at MonoDevelop.Debugger.DebugExecutionHandler.Execute (MonoDevelop.Core.Execution.ExecutionCommand command, IConsole console) [0x00000] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebugExecutionHandlerFactory.cs:70 
+  at MonoDevelop.Debugger.InternalDebugExecutionHandler.Execute (MonoDevelop.Core.Execution.ExecutionCommand command, IConsole console) [0x0000c] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebuggingService.cs:987 
+  at MonoDevelop.Core.Execution.ProcessHostController.Start (IList`1 userAssemblyPaths) [0x00171] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/core/MonoDevelop.Core/MonoDevelop.Core.Execution/ProcessHostController.cs:133 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T21:59:07</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x0002a] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:265 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x000bb] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:249 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00049] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:104 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00025] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixClientTransportSink.cs:171 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x0006c] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System.Runtime.Remoting/System.Runtime.Remoting.Channels/BinaryClientFormatterSink.cs:157 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:01:07</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Write failure</Message>
+                      <StackTrace>  at System.Net.Sockets.NetworkStream.Write (System.Byte[] buffer, Int32 offset, Int32 size) [0x0008e] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System/System.Net.Sockets/NetworkStream.cs:445 
+  at System.IO.BufferedStream.Flush () [0x0003e] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.IO/BufferedStream.cs:132 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00044] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixClientTransportSink.cs:173 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x0006c] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System.Runtime.Remoting/System.Runtime.Remoting.Channels/BinaryClientFormatterSink.cs:157 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:02:22</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x0002a] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:265 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x000bb] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:249 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00049] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:104 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00025] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixClientTransportSink.cs:171 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x0006c] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System.Runtime.Remoting/System.Runtime.Remoting.Channels/BinaryClientFormatterSink.cs:157 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:07:50</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00014] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/UnitTestResult.cs:67 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x001f3] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/NUnitAssemblyTestSuite.cs:412 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/NUnitTestCase.cs:55 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x0001c] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/UnitTest.cs:361 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:08:12</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 759100
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadLocalImage () [0x00026] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:67 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 74af7ea84469d37483b6e729e2ef00a7885c1cbf
+timestamp: 1368475693
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:08:49</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 759100
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadLocalImage () [0x00026] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:67 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 3ed08c4728a1ffc44e3ce08489e29f67c5df5a7a
+timestamp: 1368475731
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:09:31</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00014] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/UnitTestResult.cs:67 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x001f3] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/NUnitAssemblyTestSuite.cs:412 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/NUnitTestCase.cs:55 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x0001c] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/UnitTest.cs:361 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:09:52</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00014] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/UnitTestResult.cs:67 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x001f3] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/NUnitAssemblyTestSuite.cs:412 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/NUnitTestCase.cs:55 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x0001c] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/UnitTest.cs:361 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:10:10</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x0002a] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:265 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x000bb] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:249 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00049] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:104 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00025] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixClientTransportSink.cs:171 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x0006c] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System.Runtime.Remoting/System.Runtime.Remoting.Channels/BinaryClientFormatterSink.cs:157 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:14:27</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x0002a] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:265 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x000bb] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:249 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00049] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:104 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00025] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixClientTransportSink.cs:171 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x0006c] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System.Runtime.Remoting/System.Runtime.Remoting.Channels/BinaryClientFormatterSink.cs:157 </StackTrace>
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestUploadHeaders">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T18:48:16</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.ArgumentException : key already present in dictionary
+Parameter name: key</Message>
+                      <StackTrace>  at System.Collections.Generic.SortedDictionary`2[System.String,System.Object].Add (System.String key, System.Object value) [0x00041] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System/System.Collections.Generic/SortedDictionary.cs:190 
+  at CloudinaryMono.Api.FinalizeUploadParameters (System.Collections.Generic.SortedDictionary`2 parameters) [0x00000] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono/Api.cs:408 
+  at CloudinaryMono.Api.Call (HttpMethod method, System.String url, System.Collections.Generic.SortedDictionary`2 parameters, CloudinaryMono.Actions.FileDescription file) [0x0002e] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono/Api.cs:323 
+  at CloudinaryMono.Cloudinary.Upload (CloudinaryMono.Actions.ImageUploadParams parameters) [0x00011] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono/Cloudinary.cs:75 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadHeaders () [0x00059] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:844 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+headers: Link: 1
+Blink: 182
+
+image_metadata: false
+public_id: headers
+signature: aacaf48e9ebc2d4f4f02bdbc582b5922d23b478a
+timestamp: 1368463697
+use_filename: false
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T18:49:26</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>ServiceStack.ServiceClient.Web.WebServiceException : Forbidden</Message>
+                      <StackTrace>  at ServiceStack.ServiceClient.Web.ServiceClientBase.ThrowWebServiceException[ErrorResponse] (System.Exception ex, System.String requestUri) [0x00000] in &lt;filename unknown&gt;:0 
+  at ServiceStack.ServiceClient.Web.ServiceClientBase.ThrowResponseTypeException[HttpWebResponse] (System.Object request, System.Exception ex, System.String requestUri) [0x00000] in &lt;filename unknown&gt;:0 
+  at ServiceStack.ServiceClient.Web.ServiceClientBase.HandleResponseException[HttpWebResponse] (System.Exception ex, System.Object request, System.String requestUri, System.Func`1 createWebRequest, System.Func`2 getResponse, System.Net.HttpWebResponse&amp; response) [0x00000] in &lt;filename unknown&gt;:0 
+  at ServiceStack.ServiceClient.Web.ServiceClientBase.Send[HttpWebResponse] (System.String httpMethod, System.String relativeOrAbsoluteUrl, System.Object request) [0x00000] in &lt;filename unknown&gt;:0 
+  at ServiceStack.ServiceClient.Web.ServiceClientBase.Post[HttpWebResponse] (IReturn`1 request) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Api.Call (HttpMethod method, System.String url, System.Collections.Generic.SortedDictionary`2 parameters, CloudinaryMono.Actions.FileDescription file) [0x00092] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono/Api.cs:330 
+  at CloudinaryMono.Cloudinary.Upload (CloudinaryMono.Actions.ImageUploadParams parameters) [0x00011] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono/Cloudinary.cs:75 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadHeaders () [0x00059] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:844 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+headers: Link: 1
+Blink: 182
+
+image_metadata: false
+public_id: headers
+signature: 19cd6451debd8d57c8469489bc7cff07ddbbe0fc
+timestamp: 1368463768
+use_filename: false
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T21:49:48</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 3.02ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+headers: Link: 1
+Blink: 182
+
+image_metadata: false
+public_id: headers
+signature: 60a8936bccc379cac9097f0ca8bb54310c02d7b9
+timestamp: 1368474590
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestUpdateTransform">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T21:50:02</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 3.31ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: c_scale,w_100
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 52e5799e356a70a1226073e611b92693d20b7a19
+tags: transformation
+timestamp: 1368474603
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+PUT REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100?allowed_for_strict=true
+RESPONSE (UpdateTransformResult):
+{"message":"updated"}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100
+RESPONSE (GetTransformResult):
+{"name":"c_scale,w_100","allowed_for_strict":true,"used":false,"info":[{"width":100,"crop":"scale"}],"derived":[]}
+PUT REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100?allowed_for_strict=false
+RESPONSE (UpdateTransformResult):
+{"message":"updated"}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100
+RESPONSE (GetTransformResult):
+{"name":"c_scale,w_100","allowed_for_strict":false,"used":false,"info":[{"width":100,"crop":"scale"}],"derived":[]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestUploadLocalImageGetMetadata">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:32:19</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: not null
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.NotNull (System.Object anObject) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadLocalImageGetMetadata () [0x0007b] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:97 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: true
+eager: c_scale,w_2
+eager_async: false
+exif: true
+faces: false
+image_metadata: true
+public_id: test--3
+signature: edffed2ce124f080891977b5f06c44c40fc75470
+timestamp: 1368477141
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestUploadStream">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:32:36</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 759100
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadStream () [0x00045] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:209 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: b974e166a76bf0de1b01d7eff0b48b7537011d26
+tags: streamed
+timestamp: 1368477158
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestUploadRemote">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:33:00</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 3381
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadRemote () [0x00030] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:188 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 5d53de3a2f0aa1a75d500964c3bf9c337b053513
+tags: remote
+timestamp: 1368477181
+use_filename: false
+file: http://cloudinary.com/images/logo.png
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestRussianText">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:34:08</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 88
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestRussianText () [0x00011] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:151 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/text
+api_key: 772786928852595
+font_size: 12
+signature: 3357a989974bca8103d7bf294aad974f2049f301
+text: Пример текста.
+timestamp: 1368477249
+RESPONSE (TextResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:34:41</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 88
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestRussianText () [0x00011] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:151 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/text
+api_key: 772786928852595
+font_size: 12
+signature: c056caa9a39a9c647d383c97d1c65048c89bad1f
+text: Пример текста.
+timestamp: 1368477290
+RESPONSE (TextResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestEnglishText">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:35:06</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 67
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestEnglishText () [0x00011] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:142 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/text
+api_key: 772786928852595
+font_size: 12
+signature: 54f85f40e2f3793070d988313cf46afd5c558dd6
+text: Sample text.
+timestamp: 1368477308
+RESPONSE (TextResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:35:23</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x0002a] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:265 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x000bb] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:249 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00049] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:104 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00025] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixClientTransportSink.cs:171 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x0006c] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System.Runtime.Remoting/System.Runtime.Remoting.Channels/BinaryClientFormatterSink.cs:157 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:36:47</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 67
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestEnglishText () [0x00011] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:142 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/text
+api_key: 772786928852595
+font_size: 12
+signature: 52453eb43669709caf8ff1154b805db663e5cd52
+text: Sample text.
+timestamp: 1368477415
+RESPONSE (TextResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:37:09</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at MonoDevelop.NUnit.UnitTestResult.CreateFailure (System.String message, System.Exception ex) [0x00014] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/UnitTestResult.cs:67 
+  at MonoDevelop.NUnit.NUnitAssemblyTestSuite.RunUnitTest (MonoDevelop.NUnit.UnitTest test, System.String suiteName, System.String pathName, System.String testName, MonoDevelop.NUnit.TestContext testContext) [0x001f3] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/NUnitAssemblyTestSuite.cs:412 
+  at MonoDevelop.NUnit.NUnitTestCase.OnRun (MonoDevelop.NUnit.TestContext testContext) [0x00000] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/NUnitTestCase.cs:55 
+  at MonoDevelop.NUnit.UnitTest.Run (MonoDevelop.NUnit.TestContext testContext) [0x0001c] in /Users/builder/data/lanes/monodevelop-lion-monodevelop-4.0.5-branch/5c86fd4a/source/monodevelop/main/src/addins/NUnit/Services/UnitTest.cs:361 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:38:00</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 67
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestEnglishText () [0x00011] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:142 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/text
+api_key: 772786928852595
+font_size: 12
+signature: 5e10e08fc95de90d22640b123dc3fee79579bbf0
+text: Sample text.
+timestamp: 1368477493
+RESPONSE (TextResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:38:56</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 67
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestEnglishText () [0x00011] in /Users/terjetyl/Projects/Laksbors/CloudinaryMono.Tests/CloudinaryTest.cs:142 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/text
+api_key: 772786928852595
+font_size: 12
+signature: fd2164dc8868a7283df0e1c79f98703c84f0d81f
+text: Sample text.
+timestamp: 1368477545
+RESPONSE (TextResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-13T22:41:50</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x0002a] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:265 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x000bb] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:249 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00049] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixConnectionPool.cs:104 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00025] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/Mono.Posix/Mono.Remoting.Channels.Unix/UnixClientTransportSink.cs:171 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x0006c] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System.Runtime.Remoting/System.Runtime.Remoting.Channels/BinaryClientFormatterSink.cs:157 </StackTrace>
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

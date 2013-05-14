@@ -1,0 +1,3675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results />
+  <Tests>
+    <TestRecord Name="CloudinaryMono">
+      <Results />
+      <Tests>
+        <TestRecord Name="Test">
+          <Results />
+          <Tests>
+            <TestRecord Name="ApiTest">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-05-14T13:19:14</TestDate>
+                  <Passed>47</Passed>
+                  <Errors>1</Errors>
+                  <Failures>2</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-05-14T13:24:25</TestDate>
+                  <Passed>47</Passed>
+                  <Errors>1</Errors>
+                  <Failures>2</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="StreamTest">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.Net.ProtocolViolationException : The number of bytes to be written is greater than the specified ContentLength.</Message>
+                      <StackTrace>  at System.Net.WebConnectionStream.CheckWriteOverflow (Int64 contentLength, Int64 totalWritten, Int64 size) [0x00038] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System/System.Net/WebConnectionStream.cs:568 
+  at System.Net.WebConnectionStream.BeginWrite (System.Byte[] buffer, Int32 offset, Int32 size, System.AsyncCallback cb, System.Object state) [0x000d6] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System/System.Net/WebConnectionStream.cs:496 
+  at System.Net.WebConnectionStream.Write (System.Byte[] buffer, Int32 offset, Int32 size) [0x00007] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System/System.Net/WebConnectionStream.cs:622 
+  at System.IO.StreamWriter.FlushBytes () [0x00043] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.IO/StreamWriter.cs:205 
+  at System.IO.StreamWriter.Decode () [0x0000c] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.IO/StreamWriter.cs:212 
+  at System.IO.StreamWriter.Flush () [0x00016] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.IO/StreamWriter.cs:184 
+  at System.IO.StreamWriter.Dispose (Boolean disposing) [0x0001e] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.IO/StreamWriter.cs:158 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.Net.ProtocolViolationException : The number of bytes to be written is greater than the specified ContentLength.</Message>
+                      <StackTrace>  at System.Net.WebConnectionStream.CheckWriteOverflow (Int64 contentLength, Int64 totalWritten, Int64 size) [0x00038] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System/System.Net/WebConnectionStream.cs:568 
+  at System.Net.WebConnectionStream.BeginWrite (System.Byte[] buffer, Int32 offset, Int32 size, System.AsyncCallback cb, System.Object state) [0x000d6] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System/System.Net/WebConnectionStream.cs:496 
+  at System.Net.WebConnectionStream.Write (System.Byte[] buffer, Int32 offset, Int32 size) [0x00007] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System/System.Net/WebConnectionStream.cs:622 
+  at System.IO.StreamWriter.FlushBytes () [0x00043] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.IO/StreamWriter.cs:205 
+  at System.IO.StreamWriter.Decode () [0x0000c] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.IO/StreamWriter.cs:212 
+  at System.IO.StreamWriter.Flush () [0x00016] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.IO/StreamWriter.cs:184 
+  at System.IO.StreamWriter.Dispose (Boolean disposing) [0x0001e] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.IO/StreamWriter.cs:158 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestAction">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestAngle">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestBackground">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestBaseTransformationArray">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestBaseTransformationChain">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestBorder">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestCdnName">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestCloudName">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestCrop">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestCustomCloudName">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestDefaultImage">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestDensity">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestEagerTransformationList">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestEffect">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestEffectWithParam">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestEnumToString">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestExcludeEmptyTransformation">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestFetch">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestFetchFormat">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestFlags">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestFormat">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestGetRequest">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.ApiTest.TestGetRequest () [0x00030] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/ApiTest.cs:532 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>api_key: 1234
+signature: 3c856a5c7fc6aee56b8cc507d2d031034df0239e
+start: 78668668
+timestamp: 1368530356
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.ApiTest.TestGetRequest () [0x00030] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/ApiTest.cs:532 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>api_key: 1234
+signature: d1b142b9cb531bb4422cd1004094ad3ed1f3b320
+start: 78668668
+timestamp: 1368530667
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestGetRequestTest">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.ApiTest.TestGetRequestTest () [0x00012] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/ApiTest.cs:540 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.ApiTest.TestGetRequestTest () [0x00012] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/ApiTest.cs:540 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestHttpEscape">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestHttpPrivateCdn">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestIgnoreHttp">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestImageTag">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestImageUploadTag">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestInitFromEnvironmentVariable">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestInitFromUri">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestOverlay">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestPage">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestResourceType">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSecureAkamai">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSecureDistribution">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSecureDistributionFromUrl">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSecureDistributionOverwrite">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="testSecureNonAkamai">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSign">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSimpleTransformation">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSprite">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSpriteCssPrefix">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSpriteTransform">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestSubDomain">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestTransformationArray">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestTransformationClone">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestTransformations">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestUnderlay">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="TestUrlClone">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:19:14</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="CloudinaryTest">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-05-14T13:24:53</TestDate>
+                  <Passed>10</Passed>
+                  <Errors>9</Errors>
+                  <Failures>21</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="TestCreateTransform">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 2.36ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/api_test_transformation?transformation=c_scale,w_102
+RESPONSE (TransformResult):
+{"error":{"message":"Transformation with that name already exists"}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/api_test_transformation
+RESPONSE (GetTransformResult):
+{"name":"t_api_test_transformation","allowed_for_strict":true,"used":true,"info":[{"width":102,"crop":"scale"}],"derived":[{"public_id":"sample","resource_type":"image","type":"upload","format":"jpg","url":"http://res.cloudinary.com/nettfaktura/image/upload/t_api_test_transformation/v1359047695/sample.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/t_api_test_transformation/v1359047695/sample.jpg","bytes":5765,"id":"09d104cf6abef9372c5d0516ad0aa00a"}]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestDelete">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: "testdelete"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestDelete () [0x00048] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:510 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testdelete
+signature: 88ca8c0f31a38cd174cc4e7109121e6ddba0f512
+timestamp: 1368530697
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image/upload/testdelete?colors=false&amp;exif=false&amp;faces=false&amp;image_metadata=false
+RESPONSE (GetResourceResult):
+{"error":{"message":"Resource not found - testdelete"}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestDeleteByPrefix">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: "testdelete"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestDeleteByPrefix () [0x00048] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:539 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testdelete
+signature: 2b53300e8c30e8aeda7c2f9bdf221d6b093f6d95
+timestamp: 1368530699
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image/upload/testdelete?colors=false&amp;exif=false&amp;faces=false&amp;image_metadata=false
+RESPONSE (GetResourceResult):
+{"error":{"message":"Resource not found - testdelete"}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestDeleteByTag">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: "api_test4"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestDeleteByTag () [0x00053] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:567 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: api_test4
+signature: 4d7c689dcf0cb62aab9b3b52a4a135df3018afba
+tags: api_test_tag_for_delete
+timestamp: 1368530700
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image/upload/api_test4?colors=false&amp;exif=false&amp;faces=false&amp;image_metadata=false
+RESPONSE (GetResourceResult):
+{"error":{"message":"Resource not found - api_test4"}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestDeleteDerived">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at CloudinaryMono.Test.CloudinaryTest.TestDeleteDerived () [0x00070] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:481 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: c_scale,w_101
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testdeletederived
+signature: 32bf09bef56454b73f5bf89b584e8b6ec24a6d0c
+timestamp: 1368530701
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image/upload/testdeletederived?colors=false&amp;exif=false&amp;faces=false&amp;image_metadata=false
+RESPONSE (GetResourceResult):
+{"error":{"message":"Resource not found - testdeletederived"}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestDeleteTransform">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.76ms</Message>
+                      <ConsoleOutput>DELETE REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/api_test_transformation2
+RESPONSE (TransformResult):
+{"error":{"message":"Can't find transformation named api_test_transformation2"}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/api_test_transformation2?transformation=c_scale,w_103
+RESPONSE (TransformResult):
+{"message":"created"}
+DELETE REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/api_test_transformation2
+RESPONSE (TransformResult):
+{"message":"deleted"}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/api_test_transformation2
+RESPONSE (GetTransformResult):
+{"error":{"message":"Can't find transformation named api_test_transformation2"}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestDeleteTransformImplicit">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 1.39ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: c_scale,w_100
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: fa98e8d75fc2404817b0b4fcc9d4771cae6057e5
+timestamp: 1368530702
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100
+RESPONSE (GetTransformResult):
+{"name":"c_scale,w_100","allowed_for_strict":false,"used":false,"info":[{"width":100,"crop":"scale"}],"derived":[]}
+DELETE REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100
+RESPONSE (TransformResult):
+{"message":"deleted"}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100
+RESPONSE (GetTransformResult):
+{"error":{"message":"Can't find transformation named c_scale,w_100"}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestDestroyRaw">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: "ok"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestDestroyRaw () [0x00052] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:174 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/raw/upload
+api_key: 772786928852595
+signature: a7c7eb385e7761640991f357db91c5d0914c5ab0
+timestamp: 1368530704
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/raw/destroy
+api_key: 772786928852595
+signature: 1a8c8bc7aa213c0437c4d18100243d955a745508
+timestamp: 1368530705
+type: upload
+RESPONSE (DeletionResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestEager">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.98ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: w_100|w_10/a_10//png
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 810924c698589d8d28943f203c0be21d2b343bb1
+tags: eager,transformation
+timestamp: 1368530705
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestEnglishText">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 67
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestEnglishText () [0x00011] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:142 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/text
+api_key: 772786928852595
+font_size: 12
+signature: b72688ee5b3078124b0c8afbb260458788ebbfe3
+text: Sample text.
+timestamp: 1368530706
+RESPONSE (TextResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestExplicit">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at CloudinaryMono.Test.CloudinaryTest.TestExplicit () [0x000c6] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:862 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/explicit
+api_key: 772786928852595
+eager: c_scale,w_2
+public_id: cloudinary
+signature: 8b6a8ed2f426767bb8cf11835ea941df29e43ea0
+timestamp: 1368530706
+type: twitter_name
+RESPONSE (ExplicitResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestExplode">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: "processing"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestExplode () [0x0005c] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:1015 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testexplode
+signature: 5f90980b5507cf5f9f73ad0e787c1de758fb8126
+timestamp: 1368530706
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/explode
+api_key: 772786928852595
+public_id: testexplode
+signature: c2df75ce99fba6c76e459692ebfe16e81a9b87df
+timestamp: 1368530707
+transformation: pg_all
+RESPONSE (ExplodeResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestGetResource">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: "testgetresource"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestGetResource () [0x0007d] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:433 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: c_scale,w_2
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testgetresource
+signature: 125b9ce373be864c606d3f6f45af48a5e5a97bcc
+timestamp: 1368530707
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image/upload/testgetresource?colors=false&amp;exif=false&amp;faces=false&amp;image_metadata=false
+RESPONSE (GetResourceResult):
+{"error":{"message":"Resource not found - testgetresource"}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestGetResourceWithMetadata">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: "testgetresource2"
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestGetResourceWithMetadata () [0x0008e] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:461 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: c_scale,w_2
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testgetresource2
+signature: c4a6afd30a9e7dcaeb7c5ce302d988d8466465f1
+timestamp: 1368530708
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image/upload/testgetresource2?colors=false&amp;exif=false&amp;faces=false&amp;image_metadata=true
+RESPONSE (GetResourceResult):
+{"error":{"message":"Resource not found - testgetresource2"}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestGetTransform">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at CloudinaryMono.Test.CloudinaryTest.TestGetTransform () [0x00081] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:707 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: c_scale,w_2
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 179ba5c9f26417ce6fa7944d17e47f493583688b
+tags: transformation
+timestamp: 1368530709
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_2
+RESPONSE (GetTransformResult):
+{"error":{"message":"Can't find transformation named c_scale,w_2"}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestJsonObject">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.14ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/explicit
+api_key: 772786928852595
+eager: c_scale,w_2
+public_id: cloudinary
+signature: 212166a3025b87ffbb6bd05b6476e1c99005be58
+timestamp: 1368530711
+type: twitter_name
+RESPONSE (ExplicitResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestListResources">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestListResources () [0x0004d] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:288 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testlistresources
+signature: 47da114bd9a98e1587d00c18c59dc6212f3f696a
+timestamp: 1368530711
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image
+RESPONSE (ListResourcesResult):
+{"resources":[{"public_id":"pejmi2rke4aukvlhrpbh","format":"jpg","version":1368476350,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:19:10Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476350/pejmi2rke4aukvlhrpbh.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476350/pejmi2rke4aukvlhrpbh.jpg"},{"public_id":"egtx9awjq7pacmmahjo5","format":"jpg","version":1368476217,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:16:57Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476217/egtx9awjq7pacmmahjo5.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476217/egtx9awjq7pacmmahjo5.jpg"},{"public_id":"flgrvpgydf7brbcufmts","format":"jpg","version":1368476194,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:16:34Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476194/flgrvpgydf7brbcufmts.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476194/flgrvpgydf7brbcufmts.jpg"},{"public_id":"xeneg9fu0u1r4x33vlm6","format":"jpg","version":1368476167,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:16:07Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476167/xeneg9fu0u1r4x33vlm6.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476167/xeneg9fu0u1r4x33vlm6.jpg"},{"public_id":"qscoylkhnvwxjl3ecumh","format":"jpg","version":1368476128,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:15:28Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476128/qscoylkhnvwxjl3ecumh.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476128/qscoylkhnvwxjl3ecumh.jpg"},{"public_id":"ufmxfcukqf2pedrsetgu","format":"jpg","version":1368188545,"resource_type":"image","type":"upload","created_at":"2013-05-10T12:22:25Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368188545/ufmxfcukqf2pedrsetgu.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368188545/ufmxfcukqf2pedrsetgu.jpg"},{"public_id":"blzpruxkmcpluqo2jglg","format":"jpg","version":1359050243,"resource_type":"image","type":"upload","created_at":"2013-01-24T17:57:23Z","bytes":1357715,"width":1030,"height":1030,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1359050243/blzpruxkmcpluqo2jglg.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1359050243/blzpruxkmcpluqo2jglg.jpg"},{"public_id":"sample","format":"jpg","version":1359047695,"resource_type":"image","type":"upload","created_at":"2013-01-24T17:14:55Z","bytes":109669,"width":864,"height":576,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1359047695/sample.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1359047695/sample.jpg"}]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestListResourcesByPrefix">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 1.20ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testlistblablabla
+signature: 751f1fe145b636529d0ce0659c794fe912562d5c
+timestamp: 1368530712
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image?prefix=testlist&amp;type=upload
+RESPONSE (ListResourcesResult):
+{"resources":[]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestListResourcesByTag">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 2
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestListResourcesByTag () [0x0006c] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:352 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 4241dd798d593892f72c538adb8bc9ac6c43a5c1
+tags: teslistresourcesbytag1,beauty
+timestamp: 1368530714
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 6f153c52b468605dc26fb67593f4cf1480c1786a
+tags: teslistresourcesbytag1
+timestamp: 1368530714
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image/tags/teslistresourcesbytag1
+RESPONSE (ListResourcesResult):
+{"resources":[]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestListResourcesByType">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestListResourcesByType () [0x00053] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:306 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testlistresourcesbytype
+signature: 8d8a06e3fb0445a5afe93b8ed25fd225e9669f78
+timestamp: 1368530715
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image?type=upload
+RESPONSE (ListResourcesResult):
+{"resources":[{"public_id":"pejmi2rke4aukvlhrpbh","format":"jpg","version":1368476350,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:19:10Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476350/pejmi2rke4aukvlhrpbh.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476350/pejmi2rke4aukvlhrpbh.jpg"},{"public_id":"egtx9awjq7pacmmahjo5","format":"jpg","version":1368476217,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:16:57Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476217/egtx9awjq7pacmmahjo5.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476217/egtx9awjq7pacmmahjo5.jpg"},{"public_id":"flgrvpgydf7brbcufmts","format":"jpg","version":1368476194,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:16:34Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476194/flgrvpgydf7brbcufmts.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476194/flgrvpgydf7brbcufmts.jpg"},{"public_id":"xeneg9fu0u1r4x33vlm6","format":"jpg","version":1368476167,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:16:07Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476167/xeneg9fu0u1r4x33vlm6.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476167/xeneg9fu0u1r4x33vlm6.jpg"},{"public_id":"qscoylkhnvwxjl3ecumh","format":"jpg","version":1368476128,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:15:28Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476128/qscoylkhnvwxjl3ecumh.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476128/qscoylkhnvwxjl3ecumh.jpg"},{"public_id":"ufmxfcukqf2pedrsetgu","format":"jpg","version":1368188545,"resource_type":"image","type":"upload","created_at":"2013-05-10T12:22:25Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368188545/ufmxfcukqf2pedrsetgu.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368188545/ufmxfcukqf2pedrsetgu.jpg"},{"public_id":"blzpruxkmcpluqo2jglg","format":"jpg","version":1359050243,"resource_type":"image","type":"upload","created_at":"2013-01-24T17:57:23Z","bytes":1357715,"width":1030,"height":1030,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1359050243/blzpruxkmcpluqo2jglg.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1359050243/blzpruxkmcpluqo2jglg.jpg"},{"public_id":"sample","format":"jpg","version":1359047695,"resource_type":"image","type":"upload","created_at":"2013-01-24T17:14:55Z","bytes":109669,"width":864,"height":576,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1359047695/sample.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1359047695/sample.jpg"}]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestListResourceTypes">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at CloudinaryMono.Actions.ListResourceTypesResult.Parse (System.Net.HttpWebResponse response) [0x0002d] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono/Actions/ListResourceTypesResult.cs:27 
+  at CloudinaryMono.Cloudinary.ListResourceTypes () [0x00029] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono/Cloudinary.cs:171 
+  at CloudinaryMono.Test.CloudinaryTest.TestListResourceTypes () [0x00000] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:269 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources
+RESPONSE (ListResourceTypesResult):
+{"resource_types":["image"]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestListTags">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestListTags () [0x0003d] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:592 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: c1c86955975e509114f66b0a60c0cea6154c0fb2
+tags: api_test_custom
+timestamp: 1368530717
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/tags/image
+RESPONSE (ListTagsResult):
+{"tags":[]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestListTagsPrefix">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: True
+  But was:  False
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.IsTrue (Boolean condition) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestListTagsPrefix () [0x00073] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:659 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 353eaea9a13de8e9220c028a2d477e2d17d3b546
+tags: api_test_custom1
+timestamp: 1368530718
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: c54e0afea02ad13bd66a4a44c30a454427bd2bfc
+tags: api_test_brustom
+timestamp: 1368530718
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/tags/image?prefix=api_test
+RESPONSE (ListTagsResult):
+{"tags":[]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestListTransformations">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.InvalidOperationException : The source sequence is empty</Message>
+                      <StackTrace>  at System.Linq.Enumerable.First[TransformDesc] (IEnumerable`1 source) [0x0005b] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/System.Core/System.Linq/Enumerable.cs:834 
+  at CloudinaryMono.Test.CloudinaryTest.TestListTransformations () [0x0007c] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:684 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: c_scale,w_100
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 07b371467045fd509ccb571d0223e4db374d67b2
+tags: transformation
+timestamp: 1368530719
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations
+RESPONSE (ListTransformsResult):
+{"transformations":[{"name":"t_media_lib_thumb/jpg","allowed_for_strict":true,"used":false},{"name":"t_media_lib_thumb","allowed_for_strict":true,"used":true},{"name":"t_api_test_transformation","allowed_for_strict":true,"used":true},{"name":"t_admin_thumbnail","allowed_for_strict":true,"used":true}]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestMultiTransformation">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at CloudinaryMono.Test.CloudinaryTest.TestMultiTransformation () [0x00092] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:986 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: test--5-1
+signature: db9f586642c1d9cf1f6819b25daa31b5401fc835
+tags: test--5
+timestamp: 1368530721
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: test--5-2
+signature: e9a90f289e59e374c0fdace443c17aed3a0ef379
+tags: test--5
+timestamp: 1368530721
+transformation: h_300,w_100
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/multi
+api_key: 772786928852595
+async: false
+signature: b990c7c2d2d75c0cfccd5014ac7e1642b24c55e8
+tag: test--5
+timestamp: 1368530722
+RESPONSE (MultiResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestResourcesCursor">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 2.06ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testlistresources1
+signature: 40e08df51cbdac1a192d1b45782c792e28fb0633
+timestamp: 1368530722
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: testlistresources2
+signature: 062522ffcdd7fa3ecaac1601bae1fb28befb8502
+timestamp: 1368530723
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image?max_results=1
+RESPONSE (ListResourcesResult):
+{"resources":[{"public_id":"pejmi2rke4aukvlhrpbh","format":"jpg","version":1368476350,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:19:10Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476350/pejmi2rke4aukvlhrpbh.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476350/pejmi2rke4aukvlhrpbh.jpg"}],"next_cursor":"c5de6281c784632e30c5b71e1b256baa"}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/resources/image?max_results=1&amp;next_cursor=c5de6281c784632e30c5b71e1b256baa
+RESPONSE (ListResourcesResult):
+{"resources":[{"public_id":"egtx9awjq7pacmmahjo5","format":"jpg","version":1368476217,"resource_type":"image","type":"upload","created_at":"2013-05-13T20:16:57Z","bytes":737633,"width":1920,"height":1200,"url":"http://res.cloudinary.com/nettfaktura/image/upload/v1368476217/egtx9awjq7pacmmahjo5.jpg","secure_url":"https://cloudinary-a.akamaihd.net/nettfaktura/image/upload/v1368476217/egtx9awjq7pacmmahjo5.jpg"}],"next_cursor":"502af1c5656565797b0b86bdd71ea88f"}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestRussianText">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 88
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestRussianText () [0x00011] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:151 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/text
+api_key: 772786928852595
+font_size: 12
+signature: c7825568e9821957efc550ace46ed611a7219cdf
+text: Пример текста.
+timestamp: 1368530725
+RESPONSE (TextResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestSprite">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: not null
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.NotNull (System.Object anObject) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestSprite () [0x000f9] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:893 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: logo1
+signature: dcebbde44b9b541d554b8d4207431c077bbe1314
+tags: logo,beauty
+timestamp: 1368530725
+transformation: h_100,w_200
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: logo2
+signature: 4988f962abd7039cbf7e7f9d8a72d4c20aa121e1
+tags: logo,beauty
+timestamp: 1368530726
+transformation: h_100,w_100
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: logo3
+signature: 1fcc9818a6b19604dc94acfd0bf0d596a6c2719d
+tags: logo,beauty
+timestamp: 1368530726
+transformation: h_300,w_100
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/sprite
+api_key: 772786928852595
+async: false
+signature: fc255db244b4a113c496e247cd5c2e19ee9409e7
+tag: logo
+timestamp: 1368530727
+RESPONSE (SpriteResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestSpriteTransformation">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: not null
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.NotNull (System.Object anObject) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestSpriteTransformation () [0x00126] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:929 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: logotrans1
+signature: d886b46499403da0f0e5cb1d1adfb3b877b0efa2
+tags: logotrans
+timestamp: 1368530727
+transformation: h_100,w_200
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: logotrans2
+signature: 89a617e1deb3d5ea6081b1b6305c5e020dd2d273
+tags: logotrans
+timestamp: 1368530728
+transformation: h_100,w_100
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+public_id: logotrans3
+signature: a75c4089f7c385a57dd5da8a6c7392651256af66
+tags: logotrans
+timestamp: 1368530729
+transformation: h_300,w_100
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/sprite
+api_key: 772786928852595
+async: false
+signature: 55d3542de8b80af1fd87dcb7ae39806bcb4a183c
+tag: logotrans
+timestamp: 1368530730
+transformation: c_scale,h_100,w_100
+RESPONSE (SpriteResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestTagAdd">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at CloudinaryMono.Test.CloudinaryTest.TestTagAdd () [0x00055] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: d894e2e01e8e17f106b907a428cc8faa5c23ad41
+timestamp: 1368530730
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/tags
+api_key: 772786928852595
+command: add
+signature: f3dbb2fca87277e7bcbab77e17dbaf9134e4871b
+tag: test-------tag
+timestamp: 1368530731
+RESPONSE (TagResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestTagReplace">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at CloudinaryMono.Test.CloudinaryTest.TestTagReplace () [0x00060] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:259 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 002f7a2427f526d65275e1c34fc4834b3f69fe81
+tags: test++++++tag
+timestamp: 1368530731
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/tags
+api_key: 772786928852595
+command: replace
+signature: c9e0e03701807ee43438d7027cc1016157696a22
+tag: another-tag-test
+timestamp: 1368530732
+RESPONSE (TagResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestUpdateTransform">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 1.83ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: c_scale,w_100
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 57fb6c7be41468e3a8ff6c77a383e64fbccc0919
+tags: transformation
+timestamp: 1368530733
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+PUT REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100?allowed_for_strict=true
+RESPONSE (UpdateTransformResult):
+{"message":"updated"}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100
+RESPONSE (GetTransformResult):
+{"name":"c_scale,w_100","allowed_for_strict":true,"used":false,"info":[{"width":100,"crop":"scale"}],"derived":[]}
+PUT REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100?allowed_for_strict=false
+RESPONSE (UpdateTransformResult):
+{"message":"updated"}
+GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/transformations/c_scale,w_100
+RESPONSE (GetTransformResult):
+{"name":"c_scale,w_100","allowed_for_strict":false,"used":false,"info":[{"width":100,"crop":"scale"}],"derived":[]}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestUploadHeaders">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.87ms</Message>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+headers: Link: 1
+Blink: 182
+
+image_metadata: false
+public_id: headers
+signature: 06c723400ba51071e3afe9c77b9f8f1a3d4e8b90
+timestamp: 1368530734
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestUploadLocalImage">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 759100
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadLocalImage () [0x00026] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:67 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: d71818d42d85ee0e4ab659b6e9d905c233c0fcf1
+timestamp: 1368530735
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestUploadLocalImageGetMetadata">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: not null
+  But was:  null
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.NotNull (System.Object anObject) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadLocalImageGetMetadata () [0x0007b] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:97 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: true
+eager: c_scale,w_2
+eager_async: false
+exif: true
+faces: false
+image_metadata: true
+public_id: test--3
+signature: 1ab144da09f545bcb04c706e2f8cd024366dc76e
+timestamp: 1368530736
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestUploadLocalImageUseFilename">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at CloudinaryMono.Test.CloudinaryTest.TestUploadLocalImageUseFilename () [0x00074] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:116 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager: c_scale,w_2
+eager_async: true
+exif: false
+faces: false
+image_metadata: false
+notification_url: http://www.google.com
+signature: 5055615a801fac690f1e7515df97ecbbcdfe1ccb
+timestamp: 1368530737
+use_filename: true
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestUploadRemote">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 3381
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadRemote () [0x00030] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:188 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: 79983c4b0cd5b857d10fdecbf65190faf36d9056
+tags: remote
+timestamp: 1368530738
+use_filename: false
+file: http://cloudinary.com/images/logo.png
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestUploadStream">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 759100
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadStream () [0x00045] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:209 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: a729fd4150393fa8e18b35434805fc0a1f805791
+tags: streamed
+timestamp: 1368530738
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestUploadTransformationResize">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 176110
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int64 expected, Int64 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at CloudinaryMono.Test.CloudinaryTest.TestUploadTransformationResize () [0x0005a] in /Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs:131 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000d5] in /private/tmp/source/bockbuild/profiles/mono-2-10/build-root/mono-2.10.12/_build/mono-2.10.12.git/mcs/class/corlib/System.Reflection/MonoMethod.cs:226 </StackTrace>
+                      <ConsoleOutput>POST REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/image/upload
+api_key: 772786928852595
+colors: false
+eager_async: false
+exif: false
+faces: false
+image_metadata: false
+signature: d6de1a127dcd575a12d9c7fb3ce6cbac888a966a
+tags: transformation
+timestamp: 1368530739
+transformation: h_512,w_512
+use_filename: false
+RESPONSE (ImageUploadResult):
+{"error":{"message":"Unknown API key "}}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TestUsage">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-14T13:24:53</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.58ms</Message>
+                      <ConsoleOutput>GET REQUEST:
+https://api.cloudinary.com/v1_1/nettfaktura/usage
+RESPONSE (UsageResult):
+{"plan":"Free","last_updated":"2013-05-13","objects":{"usage":13,"limit":50000,"used_percent":0.03},"bandwidth":{"usage":22980,"limit":1048576000,"used_percent":0.0},"storage":{"usage":5924380,"limit":524288000,"used_percent":1.13},"requests":3,"resources":8,"derived_resources":5}
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>
