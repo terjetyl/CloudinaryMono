@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D099630-EEB0-430C-B616-786ABD5F2999}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CloudinaryMono</RootNamespace>
+    <AssemblyName>CloudinaryMono</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\packages\ServiceStack.Text.3.9.45\lib\net35\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\packages\ServiceStack.Common.3.9.45\lib\net35\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\packages\ServiceStack.Common.3.9.45\lib\net35\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\packages\ServiceStack.Redis.3.9.45\lib\net35\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.SqlServer">
+      <HintPath>..\packages\ServiceStack.OrmLite.SqlServer.3.9.45\lib\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite">
+      <HintPath>..\packages\ServiceStack.OrmLite.SqlServer.3.9.45\lib\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.ServiceInterface">
+      <HintPath>..\packages\ServiceStack.3.9.45\lib\net35\ServiceStack.ServiceInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack">
+      <HintPath>..\packages\ServiceStack.3.9.45\lib\net35\ServiceStack.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Actions\BaseParams.cs" />
+    <Compile Include="Actions\BaseResult.cs" />
+    <Compile Include="Actions\CreateTransformParams.cs" />
+    <Compile Include="Actions\DelDerivedResParams.cs" />
+    <Compile Include="Actions\DelDerivedResResult.cs" />
+    <Compile Include="Actions\DelResParams.cs" />
+    <Compile Include="Actions\DelResResult.cs" />
+    <Compile Include="Actions\DeletionParams.cs" />
+    <Compile Include="Actions\DeletionResult.cs" />
+    <Compile Include="Actions\ExplicitParams.cs" />
+    <Compile Include="Actions\ExplicitResult.cs" />
+    <Compile Include="Actions\ExplodeParams.cs" />
+    <Compile Include="Actions\ExplodeResult.cs" />
+    <Compile Include="Actions\GetResourceParams.cs" />
+    <Compile Include="Actions\GetResourceResult.cs" />
+    <Compile Include="Actions\GetTransformParams.cs" />
+    <Compile Include="Actions\GetTransformResult.cs" />
+    <Compile Include="Actions\ImageUploadParams.cs" />
+    <Compile Include="Actions\ImageUploadResult.cs" />
+    <Compile Include="Actions\ListResourceTypesResult.cs" />
+    <Compile Include="Actions\ListResourcesParams.cs" />
+    <Compile Include="Actions\ListResourcesResult.cs" />
+    <Compile Include="Actions\ListTagsParams.cs" />
+    <Compile Include="Actions\ListTagsResult.cs" />
+    <Compile Include="Actions\ListTransformsParams.cs" />
+    <Compile Include="Actions\ListTransformsResult.cs" />
+    <Compile Include="Actions\MultiParams.cs" />
+    <Compile Include="Actions\MultiResult.cs" />
+    <Compile Include="Actions\RawUploadParams.cs" />
+    <Compile Include="Actions\RawUploadResult.cs" />
+    <Compile Include="Actions\SpriteParams.cs" />
+    <Compile Include="Actions\SpriteResult.cs" />
+    <Compile Include="Actions\TagParams.cs" />
+    <Compile Include="Actions\TagResult.cs" />
+    <Compile Include="Actions\TextParams.cs" />
+    <Compile Include="Actions\TextResult.cs" />
+    <Compile Include="Actions\TransformResult.cs" />
+    <Compile Include="Actions\UpdateTransformParams.cs" />
+    <Compile Include="Actions\UpdateTransformResult.cs" />
+    <Compile Include="Actions\UsageResult.cs" />
+    <Compile Include="Account.cs" />
+    <Compile Include="Api.cs" />
+    <Compile Include="Cloudinary.cs" />
+    <Compile Include="Transformation.cs" />
+    <Compile Include="Url.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Actions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
