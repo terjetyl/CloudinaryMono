@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudinaryMono", "Cloudinar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudinaryMono.Tests", "CloudinaryMono.Tests\CloudinaryMono.Tests.csproj", "{F42B868C-6126-46BE-9DB0-546150B42C81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudinaryMono.IOS", "CloudinaryMono.IOS\CloudinaryMono.IOS.csproj", "{BF1A7A12-91A0-46DE-B448-96C23F11068D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6D099630-EEB0-430C-B616-786ABD5F2999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D099630-EEB0-430C-B616-786ABD5F2999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D099630-EEB0-430C-B616-786ABD5F2999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1A7A12-91A0-46DE-B448-96C23F11068D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1A7A12-91A0-46DE-B448-96C23F11068D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1A7A12-91A0-46DE-B448-96C23F11068D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1A7A12-91A0-46DE-B448-96C23F11068D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F42B868C-6126-46BE-9DB0-546150B42C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F42B868C-6126-46BE-9DB0-546150B42C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F42B868C-6126-46BE-9DB0-546150B42C81}.Release|Any CPU.ActiveCfg = Release|Any CPU

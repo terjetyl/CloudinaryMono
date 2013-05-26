@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF1A7A12-91A0-46DE-B448-96C23F11068D}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CloudinaryMono.IOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>CloudinaryMono.IOS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="ServiceStack.Common.MonoTouch">
+      <HintPath>..\libs\ServiceStack.Common.MonoTouch.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces.MonoTouch">
+      <HintPath>..\libs\ServiceStack.Interfaces.MonoTouch.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text.MonoTouch">
+      <HintPath>..\libs\ServiceStack.Text.MonoTouch.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Actions\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="..\CloudinaryMono\Actions\BaseParams.cs">
+      <Link>Actions\BaseParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\BaseResult.cs">
+      <Link>Actions\BaseResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\CreateTransformParams.cs">
+      <Link>Actions\CreateTransformParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\DelDerivedResParams.cs">
+      <Link>Actions\DelDerivedResParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\DelDerivedResResult.cs">
+      <Link>Actions\DelDerivedResResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\DelResParams.cs">
+      <Link>Actions\DelResParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\DelResResult.cs">
+      <Link>Actions\DelResResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\DeletionParams.cs">
+      <Link>Actions\DeletionParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\DeletionResult.cs">
+      <Link>Actions\DeletionResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ExplicitParams.cs">
+      <Link>Actions\ExplicitParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ExplicitResult.cs">
+      <Link>Actions\ExplicitResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ExplodeParams.cs">
+      <Link>Actions\ExplodeParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ExplodeResult.cs">
+      <Link>Actions\ExplodeResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\GetResourceParams.cs">
+      <Link>Actions\GetResourceParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\GetResourceResult.cs">
+      <Link>Actions\GetResourceResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\GetTransformParams.cs">
+      <Link>Actions\GetTransformParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\GetTransformResult.cs">
+      <Link>Actions\GetTransformResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ImageUploadParams.cs">
+      <Link>Actions\ImageUploadParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ImageUploadResult.cs">
+      <Link>Actions\ImageUploadResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ListResourceTypesResult.cs">
+      <Link>Actions\ListResourceTypesResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ListResourcesParams.cs">
+      <Link>Actions\ListResourcesParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ListResourcesResult.cs">
+      <Link>Actions\ListResourcesResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ListTagsParams.cs">
+      <Link>Actions\ListTagsParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ListTagsResult.cs">
+      <Link>Actions\ListTagsResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ListTransformsParams.cs">
+      <Link>Actions\ListTransformsParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\ListTransformsResult.cs">
+      <Link>Actions\ListTransformsResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\MultiParams.cs">
+      <Link>Actions\MultiParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\MultiResult.cs">
+      <Link>Actions\MultiResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\RawUploadParams.cs">
+      <Link>Actions\RawUploadParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\RawUploadResult.cs">
+      <Link>Actions\RawUploadResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\SpriteParams.cs">
+      <Link>Actions\SpriteParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\SpriteResult.cs">
+      <Link>Actions\SpriteResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\TagParams.cs">
+      <Link>Actions\TagParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\TagResult.cs">
+      <Link>Actions\TagResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\TextParams.cs">
+      <Link>Actions\TextParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\TextResult.cs">
+      <Link>Actions\TextResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\TransformResult.cs">
+      <Link>Actions\TransformResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\UpdateTransformParams.cs">
+      <Link>Actions\UpdateTransformParams.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\UpdateTransformResult.cs">
+      <Link>Actions\UpdateTransformResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Actions\UsageResult.cs">
+      <Link>Actions\UsageResult.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Account.cs">
+      <Link>Account.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Api.cs">
+      <Link>Api.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Cloudinary.cs">
+      <Link>Cloudinary.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Transformation.cs">
+      <Link>Transformation.cs</Link>
+    </Compile>
+    <Compile Include="..\CloudinaryMono\Url.cs">
+      <Link>Url.cs</Link>
+    </Compile>
+  </ItemGroup>
+</Project>

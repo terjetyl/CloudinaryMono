@@ -1,6 +1,5 @@
 ﻿using System.Net;
 using System.Runtime.Serialization;
-using System.Runtime.Serialization.Json;
 
 namespace CloudinaryMono.Actions
 {

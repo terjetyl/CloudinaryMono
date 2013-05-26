@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Web;
 
 namespace CloudinaryMono
 {
@@ -470,11 +469,11 @@ namespace CloudinaryMono
         {
         }
 
-        public UrlBuilder(System.Web.UI.Page page)
-            : base(page.Request.Url.AbsoluteUri)
-        {
-            PopulateQueryString();
-        }
+//        public UrlBuilder(System.Web.UI.Page page)
+//            : base(page.Request.Url.AbsoluteUri)
+//        {
+//            PopulateQueryString();
+//        }
 
         public new string ToString()
         {
@@ -496,7 +495,7 @@ namespace CloudinaryMono
         private void _Navigate(bool endResponse)
         {
             string uri = this.ToString();
-            HttpContext.Current.Response.Redirect(uri, endResponse);
+            //Response.Redirect(uri, endResponse);
         }
 
         private void PopulateQueryString()

@@ -7,7 +7,6 @@ using System.Net;
 using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
-using System.Web;
 using CloudinaryMono.Actions;
 
 namespace CloudinaryMono
@@ -353,7 +352,7 @@ namespace CloudinaryMono
 					Append("' ").
 						Append(item.Key).
 						Append("='").
-						Append(HttpUtility.HtmlEncode(item.Value));
+						Append(Uri.EscapeDataString(item.Value));
 			}
 
 			builder.Append("'/>");
