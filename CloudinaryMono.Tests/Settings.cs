@@ -2,15 +2,15 @@
    
     public static class Settings {
 		public static string ApiSecret {
-			get { return "QVdnjPuPS-Qre4sDS36YZlnC6J0"; }
+			get { return ""; }
 		}
 
 		public static string ApiKey {
-			get { return "772786928852595"; }
+			get { return ""; }
 		}
 
 		public static string CloudName {
-			get { return "nettfaktura"; }
+			get { return ""; }
 		}
     }
 }

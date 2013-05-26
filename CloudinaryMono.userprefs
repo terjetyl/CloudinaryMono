@@ -1,18 +1,15 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CloudinaryMono/Api.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CloudinaryMono.Tests/CloudinaryTest.cs">
     <Files>
-      <File FileName="CloudinaryMono/Cloudinary.cs" Line="143" Column="56" />
-      <File FileName="CloudinaryMono/Api.cs" Line="341" Column="29" />
-      <File FileName="CloudinaryMono.Tests/CloudinaryTest.cs" Line="137" Column="12" />
-      <File FileName="CloudinaryMono/Actions/TextResult.cs" Line="1" Column="1" />
-      <File FileName="CloudinaryMono/Actions/BaseResult.cs" Line="1" Column="1" />
-      <File FileName="CloudinaryMono/Actions/TextParams.cs" Line="23" Column="9" />
+      <File FileName="CloudinaryMono.Tests/ApiTest.cs" Line="440" Column="13" />
+      <File FileName="CloudinaryMono.Tests/CloudinaryTest.cs" Line="46" Column="92" />
+      <File FileName="CloudinaryMono.Tests/Settings.cs" Line="12" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="CloudinaryMono.Tests" expanded="True" selected="True" />
+          <Node name="CloudinaryMono.IOS.Tests" selected="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -30,7 +27,11 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono/Cloudinary.cs" line="143" column="1" />
+      <Breakpoint file="/Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono.Tests/CloudinaryTest.cs" line="515" column="1" />
+      <Breakpoint file="/Users/terjetyl/Projects/CloudinaryMono/CloudinaryMono/Cloudinary.cs" line="432" column="53" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
