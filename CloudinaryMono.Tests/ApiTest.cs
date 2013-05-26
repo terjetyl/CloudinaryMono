@@ -437,12 +437,12 @@ namespace CloudinaryMono.Test
             Cloudinary cloudinary = new Cloudinary("cloudinary://a:b@test123");
         }
 
-        [Test]
-        public void TestInitFromEnvironmentVariable()
-        {
-            Environment.SetEnvironmentVariable("CLOUDINARY_URL", "cloudinary://a:b@test123");
-            Cloudinary cloudinary = new Cloudinary();
-        }
+//        [Test]
+//        public void TestInitFromEnvironmentVariable()
+//        {
+//            Environment.SetEnvironmentVariable("CLOUDINARY_URL", "cloudinary://a:b@test123");
+//            Cloudinary cloudinary = new Cloudinary();
+//        }
 
         [Test]
         public void TestSecureDistributionFromUrl()
