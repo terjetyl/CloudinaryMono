@@ -521,40 +521,5 @@ namespace CloudinaryMono.Test
             string uri = api.UrlImgUp.Action("sprite").Add("p_home_thing_").BuildUrl("logo.css");
             Assert.AreEqual("http://res.cloudinary.com/testcloud/image/sprite/p_home_thing_/logo.css", uri);
 		}
-
-		[Test]
-		public void TestGetRequest()
-		{
-			var parameters = new SortedDictionary<string, object>();
-			parameters.Add("start", "78668668");
-			var request = api.GetRequest(HttpMethod.POST, "http://test.com", parameters, null);
-			Assert.IsNotNull(request);
-			Assert.IsTrue(request.ContentLength > 0);
-		}
-
-		[Test]
-		public void TestGetRequestTest()
-		{
-			var request = api.GetTestRequest();
-			Assert.IsNotNull(request);
-			Assert.IsTrue(request.ContentLength > 0);
-		}
-
-		[Test]
-		public void StreamTest()
-		{
-			var request = System.Net.HttpWebRequest.Create("http://foo.com");
-			request.Method = "POST";
-			request.ContentType = "application/json";
-			request.ContentLength = 1;
-			using (var writer = new System.IO.StreamWriter(request.GetRequestStream()))
-			{
-				writer.Write("{ text: \"text\"}");
-				writer.Flush ();
-				writer.Close ();
-			}
-			
-			Assert.IsTrue(request.ContentLength > 0);
-		}
     }
 }

@@ -178,7 +178,7 @@ namespace CloudinaryMono
 
             string original_source = source;
 
-            if (Regex.IsMatch(source.ToLower(), "^https?:/.*"))
+            if (Regex.IsMatch(source.ToLower(), "^http?:/.*"))
             {
                 if (m_action == "upload" || m_action == "asset")
                 {

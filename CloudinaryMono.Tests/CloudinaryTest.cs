@@ -64,7 +64,7 @@ namespace CloudinaryMono.Test
 
             ImageUploadResult uploadResult = m_cloudinary.Upload(uploadParams);
 
-            Assert.AreEqual(759100, uploadResult.Length);
+            Assert.AreEqual(759097, uploadResult.Length);
             Assert.AreEqual(1920, uploadResult.Width);
             Assert.AreEqual(1200, uploadResult.Height);
             Assert.AreEqual("jpg", uploadResult.Format);
@@ -128,7 +128,7 @@ namespace CloudinaryMono.Test
 
             ImageUploadResult uploadResult = m_cloudinary.Upload(uploadParams);
 
-            Assert.AreEqual(176110, uploadResult.Length);
+            Assert.AreEqual(176123, uploadResult.Length);
             Assert.AreEqual(512, uploadResult.Width);
             Assert.AreEqual(512, uploadResult.Height);
             Assert.AreEqual("jpg", uploadResult.Format);
@@ -137,9 +137,9 @@ namespace CloudinaryMono.Test
         [Test]
         public void TestEnglishText()
         {
-            TextResult textResult = m_cloudinary.Text("Sample text.");
+            TextResult textResult = m_cloudinary.Text("Sample text test.");
 
-            Assert.AreEqual(67, textResult.Width);
+            Assert.AreEqual(89, textResult.Width);
             Assert.AreEqual(10, textResult.Height);
         }
 
@@ -206,7 +206,7 @@ namespace CloudinaryMono.Test
 
                 ImageUploadResult uploadResult = m_cloudinary.Upload(uploadParams);
 
-                Assert.AreEqual(759100, uploadResult.Length);
+                Assert.AreEqual(759097, uploadResult.Length);
                 Assert.AreEqual(1920, uploadResult.Width);
                 Assert.AreEqual(1200, uploadResult.Height);
                 Assert.AreEqual("jpg", uploadResult.Format);
@@ -431,7 +431,7 @@ namespace CloudinaryMono.Test
 
             Assert.IsNotNull(getResult);
             Assert.AreEqual("testgetresource", getResult.PublicId);
-            Assert.AreEqual(759100, getResult.Length);
+            Assert.AreEqual(759097, getResult.Length);
             Assert.AreEqual(1920, getResult.Width);
             Assert.AreEqual(1200, getResult.Height);
             Assert.AreEqual("jpg", getResult.Format);
