@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{6D099630-EEB0-430C-B616-786ABD5F2999}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -33,31 +33,22 @@
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\packages\ServiceStack.Interfaces.4.0.46\lib\portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
     <Reference Include="ServiceStack.Text">
-      <HintPath>..\packages\ServiceStack.Text.3.9.45\lib\net35\ServiceStack.Text.dll</HintPath>
+      <HintPath>..\packages\ServiceStack.Text.4.0.46\lib\net40\ServiceStack.Text.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Common">
-      <HintPath>..\packages\ServiceStack.Common.3.9.45\lib\net35\ServiceStack.Common.dll</HintPath>
+      <HintPath>..\packages\ServiceStack.Common.4.0.46\lib\net40\ServiceStack.Common.dll</HintPath>
     </Reference>
-    <Reference Include="ServiceStack.Interfaces">
-      <HintPath>..\packages\ServiceStack.Common.3.9.45\lib\net35\ServiceStack.Interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.Redis">
-      <HintPath>..\packages\ServiceStack.Redis.3.9.45\lib\net35\ServiceStack.Redis.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.OrmLite.SqlServer">
-      <HintPath>..\packages\ServiceStack.OrmLite.SqlServer.3.9.45\lib\ServiceStack.OrmLite.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.OrmLite">
-      <HintPath>..\packages\ServiceStack.OrmLite.SqlServer.3.9.45\lib\ServiceStack.OrmLite.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.ServiceInterface">
-      <HintPath>..\packages\ServiceStack.3.9.45\lib\net35\ServiceStack.ServiceInterface.dll</HintPath>
+    <Reference Include="ServiceStack.Client">
+      <HintPath>..\packages\ServiceStack.Client.4.0.46\lib\net40\ServiceStack.Client.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack">
-      <HintPath>..\packages\ServiceStack.3.9.45\lib\net35\ServiceStack.dll</HintPath>
+      <HintPath>..\packages\ServiceStack.4.0.46\lib\net40\ServiceStack.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

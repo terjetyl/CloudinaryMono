@@ -1,4 +1,4 @@
-﻿<Properties GitUserInfo="UsingGIT">
+﻿<Properties GitUserInfo="UsingGIT" RefactoringSettings.EnableRefactorings="True" StartupItem="CloudinaryMono.IOS/CloudinaryMono.IOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CloudinaryMono.Tests/CloudinaryTest.cs">
     <Files>

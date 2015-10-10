@@ -3,11 +3,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Net;
 using System.Runtime.Serialization;
-using System.Text;
-using System.Collections.Generic;
-using System.Diagnostics;
 using ServiceStack.Text;
-using ServiceStack.ServiceModel.Serialization;
 
 namespace CloudinaryMono.Actions
 {
